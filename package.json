@@ -1,0 +1,20 @@
+{
+  "name": "meyson-boilerplate",
+  "version": "0.0.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build:main": "turbo build --filter=@point/main...",
+    "dev:main": "turbo dev --filter=@point/main...",
+    "format-and-lint": "biome check .",
+    "format-and-lint:fix": "biome check . --fix",
+    "typecheck": "turbo typecheck"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.4",
+    "turbo": "^2.5.6"
+  }
+}

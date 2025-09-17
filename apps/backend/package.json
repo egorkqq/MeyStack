@@ -1,0 +1,19 @@
+{
+  "name": "@meyson-boi/backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "build": "bun build src/index.ts --outdir dist",
+    "start": "bun run dist/index.js",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@meyson-boi/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.0",
+    "typescript": "^5.0.0"
+  }
+}

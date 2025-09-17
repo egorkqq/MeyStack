@@ -1,0 +1,46 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "//#format-and-lint": {},
+    "//#format-and-lint:fix": {
+      "cache": false
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "outputs": ["dist/**", "build/**"]
+    },
+    "clean": {
+      "cache": false
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {
+      "inputs": ["src/**/*.tsx", "src/**/*.ts", "__tests__/**/*.ts", "__tests__/**/*.tsx"]
+    },
+    "test": {
+      "dependsOn": ["build"],
+      "inputs": [
+        "src/**/*.tsx",
+        "src/**/*.ts",
+        "__tests__/**/*.ts",
+        "__tests__/**/*.tsx",
+        "**/*.test.ts",
+        "**/*.test.tsx",
+        "**/*.spec.ts",
+        "**/*.spec.tsx",
+        "tooling/**/*.ts",
+        "tooling/**/*.tsx"
+      ],
+      "outputs": ["coverage/**", "playwright-report/**", "test-results/**"]
+    },
+    "typecheck": {
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT$"],
+      "outputs": ["*.tsbuildinfo"]
+    }
+  },
+  "ui": "tui"
+}

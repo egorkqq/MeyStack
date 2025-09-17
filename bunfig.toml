@@ -1,0 +1,65 @@
+# Bun configuration for monorepo with workspaces
+[install]
+# Workspaces configuration for monorepo
+saveTextLockfile = false
+
+# Save exact versions in package.json
+exact = true
+
+# Install peer dependencies automatically
+peer = true
+
+# Install optional dependencies
+optional = true
+
+# Registry URL
+registry = "https://registry.npmjs.org"
+
+# Cache directory
+cache = "~/.bun/cache"
+
+# Lockfile path
+lockfile = "bun.lock"
+
+# Enable scoped installs for workspaces
+scoped = true
+
+[run]
+# Environment variables for development
+env = { NODE_ENV = "development" }
+
+# Hot reloading for development
+hot = true
+
+[bundle]
+# Bundle format for web apps
+format = "esm"
+
+# Enable minification for production builds
+minify = false
+
+# Generate source maps
+sourcemap = "linked"
+
+# Target modern browsers
+target = "browser"
+
+# External dependencies (not bundled)
+external = ["@types/*", "typescript"]
+
+[outfile]
+# Default output for bundles
+path = "dist/bundle.js"
+
+# Disable linting (using biome instead)
+[lint]
+enabled = false
+
+# Disable formatting (using biome instead)
+[format]
+enabled = false
+
+# Define workspace paths for better performance
+[workspace]
+root = "."
+paths = ["apps/*", "packages/*", "tooling/*"]
