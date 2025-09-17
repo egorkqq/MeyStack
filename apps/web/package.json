@@ -1,5 +1,5 @@
 {
-  "name": "@meyson-boi/web",
+  "name": "@meyson/web",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -11,9 +11,7 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "@meyson-boi/uikit": "workspace:*",
-    "@meyson-boi/shared": "workspace:*",
-    "@meyson-boi/locales": "workspace:*"
+    "@meyson/shared": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",

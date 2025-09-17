@@ -1,10 +1,10 @@
 {
-  "name": "@meyson-boi/marketing",
+  "name": "@meyson/marketing",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build": "echo 'Marketing site ready for deployment'",
     "dev": "serve .",
-    "build": "echo 'Build marketing site'",
     "preview": "serve ."
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 {
-  "name": "@meyson-boi/shared",
+  "name": "@meyson/shared",
   "version": "0.1.0",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
+    "dev": "tsc --watch --noEmit",
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {

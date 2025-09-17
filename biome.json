@@ -101,6 +101,7 @@
         "useAsConstAssertion": "error",
         "useDefaultParameterLast": "error",
         "useEnumInitializers": "error",
+        "useNodejsImportProtocol": "off",
         "useNumberNamespace": "error",
         "useSelfClosingElements": "error",
         "useSingleVarDeclarator": "error"

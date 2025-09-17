@@ -8,7 +8,7 @@
     "build": {
       "dependsOn": ["^build"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
-      "outputs": ["dist/**", "build/**"]
+      "outputs": ["dist/**", "build/**", "*.d.ts", "src/**/*.d.ts"]
     },
     "clean": {
       "cache": false

@@ -1,12 +1,12 @@
-import { createServer } from "node:http"
+const PORT = 3005
 
-const PORT = 3001
-
-const server = createServer((_req, res) => {
-  res.writeHead(200, { "Content-Type": "application/json" })
-  res.end(JSON.stringify({ message: "Hello from Meyson Backend!" }))
+const _server = Bun.serve({
+  fetch(_req) {
+    return new Response(JSON.stringify({ message: "Hello from Meyson Backend!" }), {
+      headers: { "Content-Type": "application/json" },
+    })
+  },
+  port: PORT,
 })
 
-server.listen(PORT, () => {
-  // Server started successfully
-})
+// Server started successfully

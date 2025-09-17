@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import "./App.css"
 
 function App() {
-  const [data, setData] = useState(null)
+  const [data, setData] = useState<{ message: string } | null>(null)
 
   useEffect(() => {
     // This would normally fetch from the backend
