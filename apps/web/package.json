@@ -11,7 +11,8 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "@meyson/shared": "workspace:*"
+    "@meyson/shared": "workspace:*",
+    "@meyson/configs": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",

@@ -1,0 +1,12 @@
+{
+  "name": "@meyson/configs",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./tailwind.css",
+  "exports": {
+    "./tailwind": "./tailwind.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "4.1.13"
+  }
+}

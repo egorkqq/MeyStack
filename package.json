@@ -1,10 +1,14 @@
 {
   "name": "meyson-boilerplate",
+  "description": "A comprehensive, opinionated company monorepo boilerplate",
+  "license": "MIT",
+  "author": "Meyson",
   "version": "0.0.1",
   "packageManager": "bun@1.0.0",
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/*",
+    "tooling/*"
   ],
   "scripts": {
     "build": "turbo build",

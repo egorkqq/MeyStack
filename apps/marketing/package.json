@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "echo 'Marketing site ready for deployment'",
+    "build": "tsc && cp index.html index.css dist/",
     "dev": "serve .",
     "preview": "serve ."
   },
   "devDependencies": {
-    "serve": "^14.0.0"
+    "serve": "^14.0.0",
+    "typescript": "^5.0.0",
+    "@meyson/configs": "workspace:*"
   }
 }

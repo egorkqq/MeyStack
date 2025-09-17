@@ -95,4 +95,3 @@ bun run typecheck             # TypeScript type checking
 - **Biome:** Root `biome.json` with Bun-tuned rules
 - **TypeScript:** Individual `tsconfig.json` per package
 - **Turbo:** `turbo.json` with task definitions
-- **Bun:** `bunfig.toml` for workspace config
