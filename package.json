@@ -4,7 +4,7 @@
   "license": "MIT",
   "author": "Meyson",
   "version": "0.0.1",
-  "packageManager": "bun@1.0.0",
+  "packageManager": "bun@1.2.22",
   "workspaces": [
     "apps/*",
     "packages/*",
@@ -21,7 +21,10 @@
     "dev:marketing": "turbo dev --filter=@meyson/marketing",
     "format-and-lint": "biome check .",
     "format-and-lint:fix": "biome check . --fix",
-    "typecheck": "turbo typecheck"
+    "typecheck": "turbo typecheck",
+    "update-deps": "bunx npm-check-updates --workspaces",
+    "update-deps:check": "bunx npm-check-updates --workspaces",
+    "update-deps:upgrade": "bunx npm-check-updates -u --workspaces"
   },
   "dependencies": {},
   "devDependencies": {

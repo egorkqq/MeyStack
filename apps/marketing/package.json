@@ -2,15 +2,15 @@
   "name": "@meyson/marketing",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "bun@1.0.0",
+  "packageManager": "bun@1.2.22",
   "scripts": {
     "build": "bun run tsc && cp index.html index.css dist/",
     "dev": "bun run serve .",
     "preview": "bun run serve ."
   },
   "devDependencies": {
-    "serve": "^14.0.0",
-    "typescript": "^5.0.0",
+    "serve": "^14.2.5",
+    "typescript": "^5.9.2",
     "@meyson/configs": "workspace:*"
   }
 }

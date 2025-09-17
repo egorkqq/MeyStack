@@ -45,6 +45,11 @@ bun run build:marketing
 
 # Check code quality
 bun run format-and-lint
+
+# Dependency management
+bun run update-deps:check    # Check for dependency updates
+bun run update-deps:upgrade  # Upgrade dependencies (interactive)
+bun run update-deps          # Alias for check
 ```
 
 ## ⚠️ Important Notes

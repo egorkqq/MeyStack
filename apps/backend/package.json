@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "packageManager": "bun@1.0.0",
+  "packageManager": "bun@1.2.22",
   "scripts": {
     "build": "echo 'Backend ready for deployment (no build needed)'",
     "dev": "bun run --hot src/index.ts",
@@ -14,7 +14,7 @@
     "@meyson/shared": "workspace:*"
   },
   "devDependencies": {
-    "@types/bun": "^1.0.0",
-    "typescript": "^5.0.0"
+    "@types/bun": "^1.2.22",
+    "typescript": "^5.9.2"
   }
 }

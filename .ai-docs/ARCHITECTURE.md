@@ -88,6 +88,11 @@ bun run build:marketing       # Build marketing site only
 bun run format-and-lint       # Check code quality
 bun run format-and-lint:fix   # Auto-fix issues
 bun run typecheck             # TypeScript type checking
+
+# Dependency management
+bun run update-deps:check     # Check for dependency updates across workspaces
+bun run update-deps:upgrade   # Upgrade dependencies (interactive)
+bun run update-deps           # Alias for check
 ```
 
 ## ⚙️ Configuration
@@ -95,3 +100,5 @@ bun run typecheck             # TypeScript type checking
 - **Biome:** Root `biome.json` with Bun-tuned rules
 - **TypeScript:** Individual `tsconfig.json` per package
 - **Turbo:** `turbo.json` with task definitions
+- **Dependabot:** `.github/dependabot.yml` for automated dependency updates
+- **npm-check-updates:** Integrated with `bun run update-deps` scripts
