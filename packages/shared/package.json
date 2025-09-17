@@ -2,6 +2,7 @@
   "name": "@meyson/shared",
   "version": "0.1.0",
   "main": "./dist/index.js",
+  "packageManager": "bun@1.0.0",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -11,9 +12,9 @@
     }
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch --noEmit",
-    "type-check": "tsc --noEmit"
+    "build": "bun run tsc",
+    "dev": "bun run tsc --watch --noEmit",
+    "type-check": "bun run tsc --noEmit"
   },
   "devDependencies": {
     "typescript": "^5.0.0"

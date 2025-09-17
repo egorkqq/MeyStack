@@ -2,6 +2,7 @@
   "name": "@meyson/configs",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "bun@1.0.0",
   "main": "./tailwind.css",
   "exports": {
     "./tailwind": "./tailwind.css"
