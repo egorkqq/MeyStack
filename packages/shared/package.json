@@ -1,5 +1,5 @@
 {
-  "name": "@meyson/shared",
+  "name": "@mey/shared",
   "version": "0.1.0",
   "main": "./dist/index.js",
   "packageManager": "bun@1.2.22",

@@ -1,5 +1,5 @@
 {
-  "name": "@meyson/marketing",
+  "name": "@mey/marketing",
   "version": "0.1.0",
   "private": true,
   "packageManager": "bun@1.2.22",
@@ -11,6 +11,6 @@
   "devDependencies": {
     "serve": "^14.2.5",
     "typescript": "^5.9.2",
-    "@meyson/configs": "workspace:*"
+    "@mey/configs": "workspace:*"
   }
 }

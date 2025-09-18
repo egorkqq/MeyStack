@@ -1,5 +1,5 @@
 {
-  "name": "@meyson/backend",
+  "name": "@mey/backend",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -11,7 +11,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@meyson/shared": "workspace:*"
+    "@mey/shared": "workspace:*"
   },
   "devDependencies": {
     "@types/bun": "^1.2.22",

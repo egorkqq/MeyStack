@@ -1,5 +1,5 @@
 {
-  "name": "@meyson/configs",
+  "name": "@mey/configs",
   "version": "0.1.0",
   "private": true,
   "packageManager": "bun@1.2.22",

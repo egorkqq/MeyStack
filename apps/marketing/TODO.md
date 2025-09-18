@@ -13,7 +13,7 @@ Current: Static HTML + TypeScript
 
 2. **Add React components from packages/ui**
    ```typescript
-   import { Button } from '@meyson/uikit'
+   import { Button } from '@mey/uikit'
    ```
    - Replace custom HTML with UI components
    - Use consistent design system

@@ -57,7 +57,7 @@ bun run update-deps          # Alias for check
 - **Backend port:** 3005 (избегает конфликта с портом 3001)
 - **Web/Marketing ports:** 3000 (стандартный для dev серверов)
 - **Biome rules:** Отключен `useNodejsImportProtocol` для Bun совместимости
-- **Turbo filtering:** Используй `@meyson/*` названия пакетов
+- **Turbo filtering:** Используй `@mey/*` названия пакетов
 - **Dependencies:** Убедись что `packageManager` поле есть в корне
 
 ## 📁 Current Structure

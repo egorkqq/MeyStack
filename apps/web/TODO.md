@@ -13,14 +13,14 @@ Current: Vite + React + TypeScript
 
 2. **Add React components from packages/ui**
    ```typescript
-   import { Button, Card } from '@meyson/uikit'
+   import { Button, Card } from '@mey/uikit'
    ```
    - Replace custom components with UI kit
    - Use consistent design system
 
 3. **Setup Elysia Eden for API calls**
    ```bash
-   bun add @meyson/backend/eden
+   bun add @mey/backend/eden
    ```
    - Generate type-safe API client
    - Replace fetch calls with typed requests
